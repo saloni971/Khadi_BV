@@ -1,0 +1,163 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 60px;
+}
+
+/* Header */
+header {
+    background-color: #804000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: azure;
+}
+header .logo p1 {
+    
+    color: azure;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.icons span {
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#hero {
+    background-image: url('khadi-banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    background-position: center;
+}
+
+#hero h2 {
+    font-size: 3em;
+    color: rgb(203, 112, 15);
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#hero button {
+    padding: 10px 20px;
+    background-color: #c9be96e4;
+    border: none;
+    color: #333;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #b2a67e;
+}
+
+#categories {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+#categories h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+.category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.category h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.category p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
